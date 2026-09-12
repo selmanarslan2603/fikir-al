@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="108" fill="#221D19" />
+  <circle cx="256" cy="256" r="170" fill="#D9A63B" />
+  <!-- Stylized P monogram / pin pin-head -->
+  <path d="M 210 160 L 290 160 C 330 160 355 185 355 220 C 355 255 330 280 290 280 L 250 280 L 250 355 L 210 355 Z M 250 200 L 250 240 L 285 240 C 305 240 315 232 315 220 C 315 208 305 200 285 200 Z" fill="#221D19" />
+  <circle cx="360" cy="150" r="18" fill="#A24E30" />
+</svg>

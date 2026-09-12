@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --ink: #221D19;
+    --ink-soft: #3A322B;
+    --paper: #F1E7D2;
+    --paper-dark: #E4D6B8;
+    --kraft: #C08A57;
+    --kraft-dark: #A6713F;
+    --blueprint: #3E5A73;
+    --blueprint-dark: #2E4459;
+    --mustard: #D9A63B;
+    --rust: #A24E30;
+    --cream: #F1E9DC;
+    --thread: #B5442E;
+  }
+
+  body {
+    background-color: var(--ink);
+    color: var(--cream);
+    font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.5;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Fraunces', Georgia, serif;
+  }
+}
+
+.cork-pattern {
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.05) 1px, transparent 1.4px),
+    linear-gradient(180deg, #221D19 0%, #29231E 100%);
+  background-size: 22px 22px, 100% 100%;
+}
+
+.cork-grid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: 
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.15) 0 2px, transparent 2px 90px),
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0 2px, transparent 2px 90px);
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.pin-shadow {
+  box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.35);
+}
+
+.pin-shadow-lg {
+  box-shadow: 6px 7px 0 rgba(0, 0, 0, 0.4);
+}

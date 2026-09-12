@@ -1,0 +1,6 @@
+{
+  "name": "Fikir Al ve Karar Ver — fikiralvekararver.com.tr",
+  "description": "Kafandaki tasarımı somut bir fikre çeviren interaktif tasarım danışmanlığı ve pano uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
